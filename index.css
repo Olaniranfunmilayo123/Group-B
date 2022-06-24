@@ -1,6 +1,216 @@
-body
-.container{
-   background-color: rgba(128, 128, 128, 0.061)}
+body {
+	font-family: 'BrauerNeue-Regular';
+	margin: 0;
+	padding: 0;
+	/* background-color: rgb(128, 128, 128, 0.2); */
+}
+
+
+/* ------------SECTION 2-------------- */
+
+.section2{
+   /* display:none; */
+   height: 1201px;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-one {
+	height: 835px;
+   background-image: url('sigla.png');
+   background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container-one h1 {
+	font-family: 'BrauerNeue-Regular';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 50px;
+   line-height: 45px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   width: 756px;
+   height: 78px;
+}
+
+.container-one span{
+	font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   letter-spacing: 0.981818px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-top: 331px;
+   margin-bottom: 21.04px;
+}
+.container-one p{
+   width: 603px;
+   height: 136px;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 26px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 57px;
+}
+
+.container-two {
+	background-color: white;
+	width: 80%;
+   height: 366px;
+	border-left: 4px solid #FDCF00	;
+   text-align: center;
+   left: 10%;
+   position: absolute;
+   bottom: 92px;
+}
+
+.container-two h4 {
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: center;
+   letter-spacing: 0.981818px;
+   text-transform: uppercase;
+   color: #171A31;
+   margin-top: 44px;
+   margin-bottom: 57px;
+}
+
+.container-two span{
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 45px;
+   text-align: center;
+   color: #212546;
+   width: 50%;
+   height: 209px;
+
+}
+
+/* ------------SECTION 3A-------------- */
+.section3a{
+   background: #F2F2F2;
+   padding: 15px 0;
+   height: 610px;
+   text-align: center;
+   display: none;
+}
+.section3a > h5{
+   font-family: 'Public Sans';
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 16px;
+   letter-spacing: 0.98px;
+   text-align: center;
+   height: 16px;
+   color: #171A31;
+   margin-bottom: 57px;
+   margin-top: 71px;
+}
+
+.section3a-container{
+   display: flex;
+   height: 100%;
+   justify-content: center;
+   /* padding: 0 2%; */
+   text-align: start;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   /* flex-basis: 27%; */
+   height: 250px;
+   margin: 0 15px;
+   background: #fff;
+   padding: 5px;
+   border-radius: 6px;
+   width: 369px;
+   height: 333px;
+}
+.card .upper{
+   display: flex;
+   border-left: 4px solid yellow;
+   align-items: center;
+   padding: 0 15px;
+}
+
+.card .upper .header{
+   flex-basis: 50%;
+   width: 100%;
+}
+.card .upper .header h2{
+   font-family: 'BrauerNeue-Regular';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 32px;
+   text-transform: uppercase;
+   color: #212546;
+}
+.card .upper .image{
+   flex-basis: 50%;
+   width: 100%;
+}
+.card .upper .image img{
+   width: 60px;
+   height: 60px;
+   display: flex;
+   margin-left: auto;
+   padding-right: 10px;
+   object-position: right;
+}
+
+.card p{
+   font-family: 'Public Sans';
+   width: 297px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 26px;
+   height: 136px;
+   color: #212546;
+   padding: 0 15px;
+}
+
+.card span{
+   color: #0B6CF9;
+   font-family: 'Public Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 11px;
+   letter-spacing: 0.5px;
+   padding: 0 15px;
+
+}
+
+
+/* ------------SECTION 3B-------------- */
+
+
+.section3b{
+   background-color: rgba(128, 128, 128, 0.061);
+   display: none;
+}
+
 .heading{
    font-family:Arial, Helvetica, sans-serif;
    color: grey; 
