@@ -1,0 +1,36 @@
+.default-margins {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.yellow-strip{
+    height: 60px;
+    display: block;
+    width: 2px;
+    background-color: #FDCF00;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.card{
+    background-color:#ffffff;
+    margin-bottom: 25px;
+    float: left;
+    width: 30.3%;
+    margin-right:3%;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    color:#212546;
+    font-family:'Barlow Semi Condensed', sans-serif; ;
+}
+.card img{
+    height: 57.93px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.color{
+    color:#0B6CF9;
+}
